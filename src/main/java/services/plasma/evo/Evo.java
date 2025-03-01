@@ -34,8 +34,7 @@ public final class Evo extends JavaPlugin {
                             sounds.contains(Sound.ENTITY_PLAYER_ATTACK_NODAMAGE) ||
                             sounds.contains(Sound.ENTITY_PLAYER_ATTACK_KNOCKBACK) ||
                             sounds.contains(Sound.ENTITY_PLAYER_ATTACK_CRIT) ||
-                            sounds.contains(Sound.ENTITY_PLAYER_ATTACK_WEAK) ||
-                            sounds.contains(Sound.ENTITY_PLAYER_HURT)) {
+                            sounds.contains(Sound.ENTITY_PLAYER_ATTACK_WEAK)) {
                         event.setCancelled(true);
                     }
 
